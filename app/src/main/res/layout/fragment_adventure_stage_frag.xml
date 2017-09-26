@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="adventure_fragments.adventure_stage_frag">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:background="@color/colorSemiTransBlue">
+
+        <TextView
+            android:id="@+id/txtCampaignTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:textSize="22dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="STAGE"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorSemiTransGray"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/txtAdventureTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorSemiTransGray"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/txtCampaignTitle"/>
+
+        <ScrollView
+            android:id="@+id/scrollViewMainText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/txtAdventureTitle"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtMainText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorWhite" />
+
+                <LinearLayout
+                    android:id="@+id/optionsLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:layout_below="@id/txtMainText">
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</FrameLayout>

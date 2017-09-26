@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_adventure_act"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.soe.ishibori.stagesofexperience.adventure_act"
+    android:background="@drawable/parchment_bgr">
+
+    <TextView
+        android:id="@+id/lbl_explore_adventures"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="@string/lbl_explore_adventures"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorSemiTransBlue"
+        />
+
+    <View
+        android:id="@+id/view_separator"
+        android:layout_below="@id/lbl_explore_adventures"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorWhite" />
+
+    <fragment
+        android:name="adventure_fragments.campaign_selection_frag"
+        android:id="@+id/adventure_action_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_separator"
+        android:layout_above="@+id/layout_bottom_menu">
+
+    </fragment>
+
+    <LinearLayout
+        android:id="@+id/layout_bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorSemiTransGray">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lbl_main_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/lbl_main_menu"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:id="@+id/imgMainMenu"
+                android:layout_width="72dp"
+                android:layout_height="30dp"
+                android:src="@drawable/main_menu_icon"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="9dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lbl_character_sheet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/lbl_character_sheet"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:id="@+id/imgCharSheet"
+                android:layout_width="72dp"
+                android:layout_height="30dp"
+                android:src="@drawable/sheet_icon"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lbl_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/lbl_merchant_guild"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+
+            <ImageView
+                android:id="@+id/imgMerchantGuild"
+                android:layout_width="72dp"
+                android:layout_height="30dp"
+                android:src="@drawable/shop_coin_bronze"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

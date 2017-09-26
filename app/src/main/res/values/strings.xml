@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">SOE</string>
+
+    <!-- Main menu -->
+    <string name="option_new">NEW GAME</string>
+    <string name="option_continue">CONTINUE GAME</string>
+    <string name="option_options">OPTIONS</string>
+    <string name="option_credits">CREDITS</string>
+    <string name="option_quit">QUIT</string>
+
+    <!-- Generate Character -->
+    <string name="lbl_character_creation">CHARACTER CREATION</string>
+    <string name="lbl_name">Name:</string>
+    <string name="lbl_gold">Gold</string>
+    <string name="lbl_xp">XP</string>
+    <string name="lbl_attack">Attack</string>
+    <string name="lbl_defence">Defence</string>
+    <string name="lbl_hitpoints">Hitpoints</string>
+    <string name="lbl_ability">Ability</string>
+    <string name="lbl_roll">Roll</string>
+    <string name="lbl_bonus">Bonus</string>
+    <string name="lbl_race">Race:</string>
+    <string name="lbl_class">Class:</string>
+    <string name="txt_race">Race</string>
+    <string name="txt_class">Class</string>
+    <string name="lbl_total">Total</string>
+    <string name="lbl_position">Status</string>
+    <string name="btn_reroll_stats">Reroll Abilities</string>
+    <string name="lbl_character_description">Character Description</string>
+    <string name="btn_accept">Accept Character</string>
+
+    <!-- Adventure Screen Menu -->
+    <string name="lbl_explore_adventures">EXPLORE ADVENTURES</string>
+    <string name="lbl_character_sheet">Character\nSheet</string>
+    <string name="lbl_main_menu">Main\nMenu</string>
+    <string name="lbl_merchant_guild">Merchant\nGuild</string>
+    <string name="lbl_options">Options</string>
+    <string name="lbl_back">Back</string>
+
+    <!-- Character Sheet -->
+    <string name="lbl_character_sheet_headline">CHARACTER SHEET</string>
+    <string name="lbl_abilities">Abilities</string>
+    <string name="lbl_inventory">Inventory</string>
+    <string name="lbl_equipped_items">Equipped Items</string>
+    <string name="lbl_items">Items</string>
+    <string name="btn_to_adventure">Return To Adventure</string>
+
+    <!-- Merchant Guild -->
+    <string name="lbl_merchant_guild_headline">MERCHANT GUILD</string>
+    <string name="lbl_merchant_inventory">Merchant Inventory</string>
+    <string name="lbl_character_inventory">Your Inventory</string>
+
+    <!-- Abilities -->
+    <string name="lbl_str">Strength</string>
+    <string name="lbl_con">Constitution</string>
+    <string name="lbl_ag">Agility</string>
+    <string name="lbl_int">Intelligence</string>
+    <string name="lbl_wis">Wisdom</string>
+    <string name="lbl_pre">Presence</string>
+
+    <!-- Headline Font -->
+    <string name="font_cat_childs">fonts/cat-childs.regular.ttf</string>
+
+    <!-- Dialogs -->
+    <string name="option_ok">Ok</string>
+    <string name="option_cancel">Cancel</string>
+
+    <!-- Campaign Fragment -->
+    <string name="frg_campaign_select_title">Select Campaign</string>
+    <string name="frg_campaign_target_level">Target Character Level</string>
+
+    <!-- The Dark Forest Adventures-->
+    <string name="adventure_heading_north_intro">In the past few monts the north-eastern part of the forest Taiga has been growing increasingly insecure. Hunters have reported fewer wildlife in the area and tracks from a large unidentified beast have been found. Two experienced hunters have even gone missing. You have been hired to investigate the disturbance by the wealthy merchant Grimnar Olmo, a dwarf living in the village Briarstown that lies on the eastern outskirts of the forest. He has promised you {1} gold pieces if you are able to find the source of the disturbance. If you can also remove the eventual threat he will pay an extra 50 gold.</string>
+    <string name="adventure_heading_north_stage1">During a final meeting with Grimnar he advices you to head for a small hunting cabin called Wolf\'s End, two days to the north of Brairstown and a few miles into the forest. The cabin can be your base for probing into the deeper forest. You thank him for the advice before you leave his house and begin the journey north. On the first day the weather is sunny and you move quickly forward, but during the second day it rains often and walking in the mud is exhausting. After a long day with little rest the light is growing dim and white mists are slowly rising from the damp soil. You can barely see where you are going and you decide that it is time to settle in for the night, but you have to decide where. You can camp in the open outside the forest or enter the forest to gain more shelter. What do you choose?</string>
+    <string name="adventure_heading_north_stage2">During the night</string>
+
+</resources>

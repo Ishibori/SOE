@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_item_dialog"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@color/colorAlmostBlack"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@color/colorBlack" />
+
+    <View
+        android:id="@+id/view_separator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorOrange"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/txt_title"/>
+
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_margin="10dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/view_separator"/>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:clickable="true"
+        android:text="@string/option_ok"
+        android:textStyle="bold"
+        android:background="@color/colorBlack"
+        android:gravity="center"
+        android:layout_below="@+id/txt_description"/>
+
+</RelativeLayout>

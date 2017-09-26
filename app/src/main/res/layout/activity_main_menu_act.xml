@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_menu_act"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.soe.ishibori.stagesofexperience.main_menu_act">
+
+    <Button
+        android:id="@+id/btnNew"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/option_new"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btnLoad"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/option_continue"
+        android:layout_below="@id/btnNew"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btnOptions"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/option_options"
+        android:layout_below="@id/btnLoad"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btnCredits"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/option_credits"
+        android:layout_below="@id/btnOptions"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btnQuit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/option_quit"
+        android:layout_below="@id/btnCredits"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+</RelativeLayout>
